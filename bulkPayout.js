@@ -23,7 +23,7 @@ const sendToken = async (toAddress, amount) => {
         shouldPollResponse: false
     };
     
-    const parameter = [ { type: 'address', value: toAddress }, { type: 'uint256', value: amount * 1e6 } ] 
+    const parameter = [{type: 'address', value: toAddress }, {type: 'uint256', value: amount * 1e6 } ] 
     
 
     try {
